@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1035</width>
-    <height>651</height>
+    <width>1077</width>
+    <height>666</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -31,10 +31,10 @@
         <widget class="QFrame" name="frame_5">
          <property name="geometry">
           <rect>
-           <x>-10</x>
+           <x>0</x>
            <y>-10</y>
-           <width>341</width>
-           <height>601</height>
+           <width>331</width>
+           <height>591</height>
           </rect>
          </property>
          <property name="styleSheet">
@@ -125,7 +125,7 @@ QPushButton:pressed {
 </string>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string>Vase</string>
           </property>
          </widget>
          <widget class="QCommandLinkButton" name="commandLinkButton_2">
@@ -170,7 +170,7 @@ QPushButton:pressed {
 </string>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string>Leaf</string>
           </property>
          </widget>
          <widget class="QCommandLinkButton" name="commandLinkButton_3">
@@ -215,7 +215,7 @@ QPushButton:pressed {
 </string>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string>Ribon</string>
           </property>
          </widget>
          <widget class="QCommandLinkButton" name="commandLinkButton_4">
@@ -260,7 +260,7 @@ QPushButton:pressed {
 </string>
           </property>
           <property name="text">
-           <string>xd</string>
+           <string>Flower</string>
           </property>
          </widget>
          <widget class="QCommandLinkButton" name="commandLinkButton_5">
@@ -305,7 +305,7 @@ QPushButton:pressed {
 </string>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string>Card</string>
           </property>
          </widget>
          <widget class="QCommandLinkButton" name="commandLinkButton_6">
@@ -350,7 +350,7 @@ QPushButton:pressed {
 </string>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string>Gift</string>
           </property>
          </widget>
          <widget class="QCommandLinkButton" name="commandLinkButton_7">
@@ -394,6 +394,9 @@ background-color: #f5f5fb;</string>
            <height>211</height>
           </rect>
          </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: #ffffff;</string>
+         </property>
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>
          </property>
@@ -436,38 +439,95 @@ background-color: #f5f5fb;</string>
            <rect>
             <x>10</x>
             <y>50</y>
-            <width>71</width>
+            <width>81</width>
             <height>101</height>
            </rect>
           </property>
           <property name="text">
            <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>../img/images (2).jpeg</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
           </property>
          </widget>
          <widget class="QLabel" name="label_9">
           <property name="geometry">
            <rect>
-            <x>90</x>
+            <x>110</x>
             <y>50</y>
-            <width>71</width>
+            <width>81</width>
             <height>101</height>
            </rect>
           </property>
           <property name="text">
            <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>../img/images (1).jpeg</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
           </property>
          </widget>
          <widget class="QLabel" name="label_10">
           <property name="geometry">
            <rect>
-            <x>180</x>
+            <x>210</x>
             <y>50</y>
-            <width>71</width>
+            <width>81</width>
             <height>101</height>
            </rect>
           </property>
           <property name="text">
            <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>../img/flores-naranjas-png-contra-fondo-transparente-381724016.webp</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_14">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>160</y>
+            <width>55</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>peonies</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_15">
+          <property name="geometry">
+           <rect>
+            <x>150</x>
+            <y>160</y>
+            <width>31</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Lily</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_16">
+          <property name="geometry">
+           <rect>
+            <x>230</x>
+            <y>160</y>
+            <width>55</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>camelia</string>
           </property>
          </widget>
         </widget>
@@ -480,12 +540,72 @@ background-color: #f5f5fb;</string>
            <height>291</height>
           </rect>
          </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: #ffffff;</string>
+         </property>
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>
          </property>
          <property name="frameShadow">
           <enum>QFrame::Raised</enum>
          </property>
+         <widget class="QLabel" name="label_8">
+          <property name="geometry">
+           <rect>
+            <x>60</x>
+            <y>20</y>
+            <width>251</width>
+            <height>271</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>../img/istockphoto-120210587-612x612.jpg</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_12">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>10</y>
+            <width>61</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>../img/istockphoto-874103164-612x612.jpg</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_13">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>80</y>
+            <width>61</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>../img/1723774351osogigante1png.png</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
+          </property>
+         </widget>
         </widget>
         <widget class="QFrame" name="frame_7">
          <property name="geometry">
@@ -682,6 +802,7 @@ QPushButton:pressed {
           <property name="styleSheet">
            <string notr="true">
 QPushButton {
+    background-color: #c2c1e7; 
     color: black;               
     border-radius: 8px;
 }
@@ -814,7 +935,7 @@ QPushButton:pressed {
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1035</width>
+     <width>1077</width>
      <height>26</height>
     </rect>
    </property>
